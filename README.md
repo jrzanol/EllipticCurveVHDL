@@ -20,7 +20,7 @@ a Soma de Pontos e a Duplicação de Pontos. Esse trabalho implementa somente a 
 Podemos ver a fórmula na imagem abaixo:
 
 
-![Formula](images/formula.png)
+![Formula](images/formula.png)<br>
 Imagem 1: Fórmulas usadas na Soma de Pontos na Curva Elíptica.
 
 
@@ -32,9 +32,9 @@ A ferramenta utilizada foi o Quartus Prime Version 24.1 Lite e o Questa Intel St
 Não foi possível utilizar a versão 13 do Quartus porque ao realizar a Análise, o mesmo apresentava uma janela de erro e gerava erro na compilação
 sem nenhum tipo de mensagem. Podemos ver nas imagens abaixo o circuito gerado e os valores:
 
-Fmax = 3.38 MHz
-Total Logic Elements = 17.045 / 29.440 (58%)
-Total Registers = 554
+Fmax = 3.38 MHz<br>
+Total Logic Elements = 17.045 / 29.440 (58%)<br>
+Total Registers = 554<br>
 Total Pins = 76 / 167 (46%)
 
 
@@ -50,13 +50,13 @@ implementados para melhorar esses dados e para ser possível a implementação d
 Para realizar os testes e verificar a lista das chaves públicas comprimidas, criamos um testbench e utilizamos a ferramenta Questa.
 Abaixo podemos ver os resultados:
 
-PrivateKey: 2 PublicKey: 03C9FB2291BCAD1EF9
-PrivateKey: 3 PublicKey: 038A474886F6D38BF5
-PrivateKey: 4 PublicKey: 030B600C5BCE7CF70F
-PrivateKey: 5 PublicKey: 02866FF2EF9F6E1C7B
-PrivateKey: 6 PublicKey: 02805BCA318303D321
-PrivateKey: 7 PublicKey: 026EA24D99A018B106
-PrivateKey: 8 PublicKey: 0206FC782F35C80479
-PrivateKey: 9 PublicKey: 02DF89C00D060C9824
+PrivateKey: 2 PublicKey: 03C9FB2291BCAD1EF9<br>
+PrivateKey: 3 PublicKey: 038A474886F6D38BF5<br>
+PrivateKey: 4 PublicKey: 030B600C5BCE7CF70F<br>
+PrivateKey: 5 PublicKey: 02866FF2EF9F6E1C7B<br>
+PrivateKey: 6 PublicKey: 02805BCA318303D321<br>
+PrivateKey: 7 PublicKey: 026EA24D99A018B106<br>
+PrivateKey: 8 PublicKey: 0206FC782F35C80479<br>
+PrivateKey: 9 PublicKey: 02DF89C00D060C9824<br>
 PrivateKey: 10 PublicKey: 020419ED23FE05FA1D
 
